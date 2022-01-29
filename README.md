@@ -17,6 +17,12 @@ The core steps of this project were:
 - Predicting the pose for one image 
 - Predicting the pose in a video and in real-time
 
+Video demo here:
+
+https://user-images.githubusercontent.com/46407601/151674413-dceddca6-0432-4ed7-af94-b2fef78da846.mp4
+
+
+
 A further step would be using OpenPose or PoseNet instead to support real-time multi-person pose estimation. 
 As BlazePose doesn't.
 Another way is using YOLO for person detection, crop the persons then predict every cropped image.
