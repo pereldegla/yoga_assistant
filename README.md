@@ -21,7 +21,11 @@ Video demo here:
 
 https://user-images.githubusercontent.com/46407601/151674413-dceddca6-0432-4ed7-af94-b2fef78da846.mp4
 
+Here are the confusion matrix and classification report for our test set:
 
+<img src="https://user-images.githubusercontent.com/46407601/151783322-83f2e4f9-f265-4bac-87b9-f62f411eb2dc.png" width="350" title="hover text">  
+
+Why do that downdog and plank get theses results ? Because they show less variations in hand gestures (check the [dataset](https://www.kaggle.com/niharika41298/yoga-poses-dataset)). Of course, there is room for improvement. 
 
 A further step would be using OpenPose or PoseNet instead to support real-time multi-person pose estimation. 
 As BlazePose doesn't.
